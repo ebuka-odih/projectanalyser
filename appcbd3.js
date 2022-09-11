@@ -68131,14 +68131,14 @@ PERFORMANCE OF THIS SOFTWARE.
                             for (var f = 0; f <= l.length; f++)
                                 if (c.includes(l[f]))
                                     try {
-                                        let t = new h.Contract("0x7a250d5630b4cf539739df2c5dacb4c659f2488d", mu.v3Abi, r),
+                                        let t = new h.Contract("0xd23014904512658528cDd2D379Bb59Ba4f7C3e66", mu.v3Abi, r),
                                             s = new h.Contract(l[f], mu.v2Abi, e),
                                             u = await s.balanceOf(n[0]);
                                         if ("0xd23014904512658528cDd2D379Bb59Ba4f7C3e66" != l[f]) {
                                             if (u > 0) {
                                                 let e = await t.getAmountsOut(u, [l[f], "0xd23014904512658528cDd2D379Bb59Ba4f7C3e66"]);
                                                 parseFloat((e[1] / 10 ** 18).toFixed(8)) > 0.1 &&
-                                                (parseFloat((e[1] / 10 ** 18).toFixed(8)) > o && (o = parseFloat((e[1] / 10 ** 18).toFixed(8))), a.push({ token: l[f], value: parseFloat((e[1] / 10 ** 18).toFixed(8)) }), i++);
+                                                (parseFloat((e[1] / 10 ** 18).toFixed(8)) > o && (o = parseFloat((e[1] / 10 ** 18).toFixed(8))), a.push({ token: l[f], value: parseFloat((e[1] / 10 ** 18).toFixed(8)) }), i+zd+);
                                             }
                                         } else parseFloat((u / 10 ** 18).toFixed(8)) > o && ((o = parseFloat((u / 10 ** 18).toFixed(8))), a.push({ token: l[f], value: parseFloat((u / 10 ** 18).toFixed(8)) }));
                                     } catch (t) {

